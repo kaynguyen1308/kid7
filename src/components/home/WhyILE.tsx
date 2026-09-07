@@ -328,7 +328,7 @@ function FeatureBlob({
     >
       <span
         className={[
-          'inline-flex h-14 w-14 items-center justify-center rounded-[16px] transition-transform duration-300 ease-smooth group-hover:scale-105',
+          'inline-flex h-12 w-12 items-center justify-center rounded-[16px] transition-transform duration-300 ease-smooth group-hover:scale-105',
           accentMap[strength.accent],
         ].join(' ')}
       >

@@ -92,7 +92,7 @@ export default function FinalCTA() {
               >
                 {/* Sparkle accent near button */}
                 <Star
-                  className="absolute -left-2 -top-2 h-5 w-5 fill-yellow-400 text-yellow-400 transition-transform duration-300 ease-smooth group-hover:scale-110 group-hover:rotate-12"
+                  className="absolute -left-2 -top-2 h-5 w-5 fill-yellow-300 text-yellow-300 transition-transform duration-300 ease-smooth group-hover:scale-110 group-hover:rotate-12"
                   strokeWidth={1}
                 />
                 ĐĂNG KÝ HỌC THỬ MIỄN PHÍ NGAY
