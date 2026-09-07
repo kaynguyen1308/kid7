@@ -81,10 +81,10 @@ export default function FinalCTA() {
 
             <p className="mt-6 max-w-md font-body text-lg leading-relaxed text-ink-700">
               Đăng ký học thử miễn phí ngay hôm nay để con trải nghiệm một buổi
-              học thực tế tại ILE — không cần chuẩn bị gì trước.
+              học thực tế tại ILE - không cần chuẩn bị gì trước.
             </p>
 
-            {/* Primary CTA — scaled up */}
+            {/* Primary CTA - scaled up */}
             <div className="mt-8">
               <Link
                 to={trialLink}
@@ -92,7 +92,7 @@ export default function FinalCTA() {
               >
                 {/* Sparkle accent near button */}
                 <Star
-                  className="absolute -left-2 -top-2 h-5 w-5 fill-blush-300 text-blush-300 transition-transform duration-300 ease-smooth group-hover:scale-110 group-hover:rotate-12"
+                  className="absolute -left-2 -top-2 h-5 w-5 fill-yellow-400 text-yellow-400 transition-transform duration-300 ease-smooth group-hover:scale-110 group-hover:rotate-12"
                   strokeWidth={1}
                 />
                 ĐĂNG KÝ HỌC THỬ MIỄN PHÍ NGAY

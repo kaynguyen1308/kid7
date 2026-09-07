@@ -16,10 +16,10 @@ interface Program {
 
 const programs: Program[] = [
   {
-    age: '3–5',
+    age: '3-5',
     title: 'Tiếng Anh Mầm non',
-    tagline: 'Học qua vui chơi – khơi dậy niềm yêu thích tiếng Anh từ sớm.',
-    body: 'Bé làm quen với tiếng Anh qua kể chuyện, vận động, âm nhạc và trò chơi, phát triển khả năng nghe – nói tự nhiên và xây dựng phản xạ ngôn ngữ đầu tiên trong một môi trường an toàn, đầy cảm hứng.',
+    tagline: 'Học qua vui chơi - khơi dậy niềm yêu thích tiếng Anh từ sớm.',
+    body: 'Bé làm quen với tiếng Anh qua kể chuyện, vận động, âm nhạc và trò chơi, phát triển khả năng nghe - nói tự nhiên và xây dựng phản xạ ngôn ngữ đầu tiên trong một môi trường an toàn, đầy cảm hứng.',
     image:
       'https://res.cloudinary.com/wsaz946u/image/upload/v1788167403/kindy_machtieubang.webp',
     character:
@@ -30,10 +30,10 @@ const programs: Program[] = [
     tilt: 'rotate-[-1.5deg]',
   },
   {
-    age: '6–10',
+    age: '6-10',
     title: 'Tiếng Anh Thiếu nhi',
-    tagline: 'Giao tiếp vui vẻ – xây nền tảng ngôn ngữ vững chắc.',
-    body: 'Bé mở rộng vốn từ vựng, nắm cấu trúc ngữ pháp và rèn giao tiếp thực tế qua các hoạt động tương tác. Cả 4 kỹ năng nghe – nói – đọc – viết được phát triển song song, đồng bộ với chương trình học ở trường.',
+    tagline: 'Giao tiếp vui vẻ - xây nền tảng ngôn ngữ vững chắc.',
+    body: 'Bé mở rộng vốn từ vựng, nắm cấu trúc ngữ pháp và rèn giao tiếp thực tế qua các hoạt động tương tác. Cả 4 kỹ năng nghe - nói - đọc - viết được phát triển song song, đồng bộ với chương trình học ở trường.',
     image:
       'https://res.cloudinary.com/wsaz946u/image/upload/v1788167402/kindy_letieucat.webp',
     character:
@@ -44,9 +44,9 @@ const programs: Program[] = [
     tilt: 'rotate-[1deg]',
   },
   {
-    age: '11–15',
+    age: '11-15',
     title: 'Tiếng Anh Thiếu niên',
-    tagline: 'Tăng tốc tiếng Anh – chuẩn bị hành trang cho những bước nhảy vọt.',
+    tagline: 'Tăng tốc tiếng Anh - chuẩn bị hành trang cho những bước nhảy vọt.',
     body: 'Học sinh nâng cao năng lực ngôn ngữ học thuật và tư duy phản biện qua luyện viết luận, đọc hiểu chuyên sâu và thuyết trình, sẵn sàng cho các kỳ thi và môi trường học tập quốc tế.',
     image:
       'https://res.cloudinary.com/wsaz946u/image/upload/v1788167401/kindy_lekimphandang.webp',

@@ -234,7 +234,7 @@ function TestimonialCard({
         {[0, 1, 2, 3, 4].map((i) => (
           <Star
             key={i}
-            className="h-4 w-4 fill-blush-400 text-blush-400"
+            className="h-4 w-4 fill-yellow-400 text-yellow-400"
             strokeWidth={0}
           />
         ))}

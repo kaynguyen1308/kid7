@@ -1,5 +1,5 @@
 import { type CSSProperties } from 'react';
-import { Compass, Users, LineChart, Heart, Milestone } from 'lucide-react';
+import { Compass, Users, ChartLine as LineChart, Heart, Milestone } from 'lucide-react';
 
 interface Strength {
   icon: typeof Compass;
@@ -176,7 +176,7 @@ export default function WhyILE() {
           </div>
 
           {/* Right: floating irregular cards */}
-          <div className="lg:col-span-7">
+          <div className="lg:col-span-7 lg:w-[120%]">
             <div className="grid grid-cols-2 gap-6">
               <FeatureBlob strength={strengths[0]} shape={0} className="rotate-[-2deg]" />
               <FeatureBlob strength={strengths[1]} shape={1} className="mt-10 rotate-[1.5deg]" />
@@ -320,7 +320,7 @@ function FeatureBlob({
   return (
     <div
       className={[
-        'group relative flex flex-col p-6 shadow-soft ring-1 ring-ink-300/20 transition-all duration-300 ease-smooth hover:-translate-y-1 hover:rotate-0 hover:shadow-card',
+        'group relative flex flex-col p-7 shadow-soft ring-1 ring-ink-300/20 transition-all duration-300 ease-smooth hover:-translate-y-1 hover:rotate-0 hover:shadow-card',
         cardBgMap[strength.accent],
         className,
       ].join(' ')}
@@ -328,13 +328,13 @@ function FeatureBlob({
     >
       <span
         className={[
-          'inline-flex h-11 w-11 items-center justify-center rounded-[14px] transition-transform duration-300 ease-smooth group-hover:scale-105',
+          'inline-flex h-14 w-14 items-center justify-center rounded-[16px] transition-transform duration-300 ease-smooth group-hover:scale-105',
           accentMap[strength.accent],
         ].join(' ')}
       >
-        <Icon className="h-5 w-5" strokeWidth={2.25} />
+        <Icon className="h-6 w-6" strokeWidth={2.25} />
       </span>
-      <h3 className="mt-4 font-heading text-lg font-bold leading-snug text-ink-900">
+      <h3 className="mt-4 font-heading text-xl font-bold leading-snug text-ink-900">
         {strength.title}
       </h3>
       <p className="mt-2 font-body text-sm leading-relaxed text-ink-600">

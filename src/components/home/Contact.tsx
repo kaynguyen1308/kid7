@@ -57,7 +57,7 @@ export default function Contact() {
             </h2>
           </div>
           <p className="max-w-sm font-body text-base leading-relaxed text-ink-600 lg:text-right">
-            Dễ dàng tìm đường đến trung tâm — đội ngũ ILE luôn sẵn sàng chào đón
+            Dễ dàng tìm đường đến trung tâm - đội ngũ ILE luôn sẵn sàng chào đón
             phụ huynh và các con.
           </p>
         </div>
@@ -137,7 +137,7 @@ export default function Contact() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="strict-origin-when-cross-origin"
-                title="Bản đồ — Trung tâm Ngoại Ngữ ILE Phước Vĩnh An"
+                title="Bản đồ - Trung tâm Ngoại Ngữ ILE Phước Vĩnh An"
               />
             </div>
           </div>

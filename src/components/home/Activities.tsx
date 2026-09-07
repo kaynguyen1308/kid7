@@ -89,7 +89,7 @@ export default function Activities() {
             </h2>
           </div>
           <p className="max-w-sm font-body text-base leading-relaxed text-ink-600 lg:text-right">
-            Không chỉ học tiếng Anh — con được trải nghiệm, vui chơi và thể hiện
+            Không chỉ học tiếng Anh - con được trải nghiệm, vui chơi và thể hiện
             chính mình qua từng hoạt động mỗi ngày.
           </p>
         </div>

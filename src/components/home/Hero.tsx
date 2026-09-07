@@ -32,7 +32,7 @@ export default function Hero() {
           {/* Badge */}
           <span className="inline-flex w-fit items-center gap-2 rounded-full bg-sky-200/70 px-3.5 py-1 font-body text-xs font-semibold text-sky-700">
             <Sparkles className="h-3.5 w-3.5" strokeWidth={2.25} />
-            Trung tâm Tiếng Anh cho trẻ 3–15 tuổi
+            Trung tâm Tiếng Anh cho trẻ 3-15 tuổi
           </span>
 
           {/* Headline */}
@@ -142,7 +142,7 @@ export default function Hero() {
               {[0, 1, 2, 3, 4].map((i) => (
                 <Star
                   key={i}
-                  className="h-4 w-4 fill-blush-400 text-blush-400"
+                  className="h-4 w-4 fill-yellow-400 text-yellow-400"
                   strokeWidth={0}
                 />
               ))}
@@ -160,7 +160,7 @@ export default function Hero() {
           <div className="lg:col-span-6 xl:col-span-6">
             <span className="inline-flex items-center gap-2 rounded-full bg-sky-200/70 px-4 py-1.5 font-body text-sm font-semibold text-sky-700">
               <Sparkles className="h-4 w-4" strokeWidth={2.25} />
-              Trung tâm Tiếng Anh cho trẻ 3–15 tuổi
+              Trung tâm Tiếng Anh cho trẻ 3-15 tuổi
             </span>
 
             <h1 className="mt-6 font-heading text-[2.75rem] font-extrabold leading-[1.08] tracking-tight text-ink-900 sm:text-5xl lg:text-[3.5rem]">
@@ -213,7 +213,7 @@ export default function Hero() {
                 {[0, 1, 2, 3, 4].map((i) => (
                   <Star
                     key={i}
-                    className="h-5 w-5 fill-blush-400 text-blush-400"
+                    className="h-5 w-5 fill-yellow-400 text-yellow-400"
                     strokeWidth={0}
                   />
                 ))}
